@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:ecart_widgets/models/product.dart'; // Ensure the import path is correct
 
-class ProductItem extends StatelessWidget {
+class EcartProductItem extends StatelessWidget {
   final Product product;
   final BorderRadius? imageBorderRadius;
   final TextStyle? titleTextStyle;
   final TextStyle? priceTextStyle;
   final Color? ratingStarColor;
 
-  ProductItem({
+  EcartProductItem({
     required this.product,
     this.imageBorderRadius,
     this.titleTextStyle,
