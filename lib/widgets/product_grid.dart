@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:ecart_widgets/models/product.dart';
 import 'product_item.dart'; // Assurez-vous que le chemin est correct
 
-class ProductGrid extends StatelessWidget {
+class EcartProductGrid extends StatelessWidget {
   final List<Product> products;
   final int crossAxisCount;
   final double childAspectRatio;
@@ -13,7 +13,7 @@ class ProductGrid extends StatelessWidget {
   final TextStyle? priceTextStyle;
   final Color? ratingStarColor;
 
-  ProductGrid({
+  EcartProductGrid({
     required this.products,
     this.crossAxisCount = 2,
     this.childAspectRatio = 3 / 2,
@@ -30,7 +30,7 @@ class ProductGrid extends StatelessWidget {
     return GridView.builder(
       padding: const EdgeInsets.all(10.0),
       itemCount: products.length,
-      itemBuilder: (ctx, i) => ProductItem(
+      itemBuilder: (ctx, i) => EcartProductItem(
         product: products[i],
         imageBorderRadius: imageBorderRadius,
         titleTextStyle: titleTextStyle,
