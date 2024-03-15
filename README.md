@@ -1,7 +1,7 @@
 # eCart Widgets
 
 ![Pub Version](https://img.shields.io/pub/v/ecart_widgets)
-![License](https://img.shields.io/github/license/MaloWinrhy/ecart_widgets)
+[![License](https://img.shields.io/github/license/MaloWinrhy/ecart_widgets)](https://github.com/MaloWinrhy/eCartWidgets/blob/main/LICENSE)
 ![Build Status](https://img.shields.io/travis/MaloWinrhy/ecart_widgets/main)
 ![Coverage](https://img.shields.io/codecov/c/github/MaloWinrhy/ecart_widgets)
 
@@ -9,10 +9,10 @@ A Flutter package that provides a collection of widgets and tools designed to st
 
 ## Features
 
-- **Product Grid**: Display products in a customizable grid layout.
-- **Product Details**: Detailed views for each product, including image galleries, descriptions, and purchase options.
-- **Shopping Cart**: A widget to show cart contents and manage product quantities.
-- **Checkout Process**: Streamline the checkout process with address selection, payment method choices, and order summaries.
+- **Product Grid**(incomming): Display products in a customizable grid layout.
+- **Product Details**(incomming): Detailed views for each product, including image galleries, descriptions, and purchase options.
+- **Shopping Cart**(incomming): A widget to show cart contents and manage product quantities.
+- **Checkout Process**(incomming): Streamline the checkout process with address selection, payment method choices, and order summaries.
 
 ## Getting Started
 
