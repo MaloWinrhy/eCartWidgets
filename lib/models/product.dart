@@ -23,6 +23,7 @@ class Product {
   final DateTime dateAdded;
   final Map<String, dynamic> variants;
   final Currency currency;
+  final int rating;
 
   // Constructor
   Product({
@@ -37,6 +38,7 @@ class Product {
     required this.dateAdded,
     this.variants = const {},
     required this.currency,
+    required this.rating,
   });
 
   // Method to format the price with currency symbol
@@ -56,6 +58,7 @@ class Product {
     DateTime? dateAdded,
     Map<String, dynamic>? variants,
     Currency? currency,
+    int? rating,
   }) {
     return Product(
       id: id ?? this.id,
@@ -69,6 +72,7 @@ class Product {
       dateAdded: dateAdded ?? this.dateAdded,
       variants: variants ?? this.variants,
       currency: currency ?? this.currency,
+      rating: rating ?? this.rating,
     );
   }
 

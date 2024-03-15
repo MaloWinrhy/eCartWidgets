@@ -1,0 +1,24 @@
+name: example
+description: "A new Flutter project showcasing how to use my_flutter_package."
+publish_to: 'none' # Prevent accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0' # Make sure this matches the SDK constraints of your package
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ecart_widgets:
+    path: ../../
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
