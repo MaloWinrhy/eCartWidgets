@@ -6,10 +6,13 @@ final List<Product> loadedProducts = [
     name: 'Red Shirt',
     description: 'A red shirt - it is pretty red!',
     price: 29.99,
-    imageUrl: 'https://loremflickr.com/640/360',
+    imageUrl: 'https://loremflickr.com/640/640',
     category: 'Shirts',
     stockQuantity: 5,
     tags: ['fashion', 'shirt', 'red'],
+    variants: {
+      'Size': ['S', 'M', 'L', 'XL', 'XXL']
+    },
     dateAdded: DateTime.now(),
     currency: Currency.usd,
     rating: 4,
