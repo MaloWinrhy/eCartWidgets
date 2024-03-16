@@ -13,7 +13,7 @@ A Flutter package that provides a collection of widgets and tools designed to st
 - **Product Details**: Detailed views for each product, including image galleries, descriptions, and purchase options.
 - **Shopping Cart**(incomming): A widget to show cart contents and manage product quantities.
 - **Checkout Process**(incomming): Streamline the checkout process with address selection, payment method choices, and order summaries.
-**Product Swiper**: A carousel widget for showcasing featured products.
+- **Product Swiper**: A carousel widget for showcasing featured products.
 
 ## Getting Started
 
