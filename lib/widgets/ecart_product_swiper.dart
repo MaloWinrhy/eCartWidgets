@@ -1,6 +1,6 @@
 import 'package:card_swiper/card_swiper.dart';
 import 'package:ecart_widgets/models/product.dart';
-import 'package:ecart_widgets/widgets/product_item.dart';
+import 'package:ecart_widgets/widgets/ecart_product_item.dart';
 import 'package:flutter/material.dart';
 
 class EcartProductsSwiper extends StatelessWidget {

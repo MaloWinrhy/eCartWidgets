@@ -1,5 +1,5 @@
 name: example
-description: "A new Flutter project showcasing how to use my_flutter_package."
+description: "A new Flutter project showcasing how to use ecart_widgets."
 publish_to: 'none' # Prevent accidental publishing to pub.dev
 
 version: 1.0.0+1

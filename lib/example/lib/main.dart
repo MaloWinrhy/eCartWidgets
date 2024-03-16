@@ -1,8 +1,6 @@
 import 'package:ecart_widgets/example/lib/data/product_data.dart';
-import 'package:ecart_widgets/widgets/product_list.dart';
 import 'package:flutter/material.dart';
-import 'package:ecart_widgets/models/product.dart';
-import 'package:ecart_widgets/widgets/product_grid.dart';
+import 'package:ecart_widgets/ecart_widgets.dart';
 
 void main() {
   runApp(MyApp());
@@ -42,7 +40,7 @@ class ProductsOverviewPage extends StatelessWidget {
               childAspectRatio: 1,
               crossAxisSpacing: 10,
               mainAxisSpacing: 10,
-              imageBorderRadius: BorderRadius.circular(15),
+              imageBorderRadius: BorderRadius.circular(25),
               titleTextStyle: TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.bold,

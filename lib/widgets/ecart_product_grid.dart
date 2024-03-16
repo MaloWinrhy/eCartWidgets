@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ecart_widgets/models/product.dart';
-import 'product_item.dart'; // Assurez-vous que le chemin est correct
+import 'ecart_product_item.dart'; // Assurez-vous que le chemin est correct
 
 class EcartProductGrid extends StatelessWidget {
   final List<Product> products;
