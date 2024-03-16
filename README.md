@@ -1,9 +1,9 @@
 # eCart Widgets
 
-![Pub Version](https://img.shields.io/pub/v/ecart_widgets)
-[![License](https://img.shields.io/github/license/MaloWinrhy/ecart_widgets)](https://github.com/MaloWinrhy/eCartWidgets/blob/main/LICENSE)
-![Build Status](https://img.shields.io/travis/MaloWinrhy/ecart_widgets/main)
-![Coverage](https://img.shields.io/codecov/c/github/MaloWinrhy/ecart_widgets)
+![Pub Version](https://img.shields.io/pub/v/eCartWidgets)
+[![License](https://img.shields.io/github/license/MaloWinrhy/eCartWidgets)](https://github.com/MaloWinrhy/eCartWidgets/blob/main/LICENSE)
+![Build Status](https://img.shields.io/travis/MaloWinrhy/eCartWidgets/main)
+![Coverage](https://img.shields.io/codecov/c/github/MaloWinrhy/eCartWidgets)
 
 A Flutter package that provides a collection of widgets and tools designed to streamline the development of e-commerce applications. With `eCart Widgets`, you can easily implement product grids, detail views, shopping carts, and checkout processes in your Flutter app.
 
